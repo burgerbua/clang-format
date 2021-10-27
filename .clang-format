@@ -1,0 +1,23 @@
+#
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+#
+
+Language: Cpp
+
+BasedOnStyle: Microsoft
+
+Standard: Latest
+IndentWidth: 4   
+TabWidth: 4   
+UseTab: Never
+ColumnLimit: 0
+
+# Forse pointer to the type for C++
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+BreakBeforeBraces: Linux
+
+AlignAfterOpenBracket: DontAlign
+
+AllowShortIfStatementsOnASingleLine: false
